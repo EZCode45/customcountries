@@ -1,1 +1,1 @@
-{"type":"module","scripts":{"test":"node --check src/app.js"},"dependencies":{},"devDependencies":{}}
+{"type":"module","scripts":{"test":"node --check js/auth.js && node --check js/countries.js && node --check js/map.js && node --check js/chat.js && node --check js/diplomacy.js && node --check js/leaderboard.js && node --check js/admin.js"},"dependencies":{},"devDependencies":{}}
