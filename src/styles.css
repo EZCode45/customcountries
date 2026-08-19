@@ -269,3 +269,30 @@ main {
     font-size: 56px;
   }
 }
+.countryPanel form {
+  display: grid;
+  grid-template-columns: 1fr 220px auto;
+  gap: 12px;
+  margin-top: 18px;
+}
+.countryPanel input,
+.countryPanel select,
+.countryPanel form button {
+  border: 1px solid #ffffff24;
+  border-radius: 16px;
+  background: #02061775;
+  color: #edf7ff;
+  padding: 13px 14px;
+  font: inherit;
+}
+.countryPanel form button {
+  background: #5eead4;
+  color: #062023;
+  font-weight: 900;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .countryPanel form {
+    grid-template-columns: 1fr;
+  }
+}
